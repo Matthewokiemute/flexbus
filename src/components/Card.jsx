@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import {
   MdAccountCircle,
   MdSupervisorAccount,
@@ -16,7 +16,6 @@ import { IconContext } from "react-icons";
 import { motion } from "framer-motion";
 
 const Card = () => {
-    const scrollRef = useRef(null)
   return (
     <div className="service_container">
       <div className="title_wrapper">
