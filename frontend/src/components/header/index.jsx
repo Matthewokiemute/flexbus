@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({ content }) => {
   return (
     <header>
       <div className='logo_wrapper'>Flex<span>bus</span></div>
       <div className='menu_container'>
         <a href='/register'>
-        <span>Create an Account</span>
+        <span>{content}</span>
         </a>
       </div>
     </header>

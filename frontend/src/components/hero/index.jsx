@@ -3,6 +3,7 @@ import bus from '../../../public/Bus.png';
 import { IoMailOutline, IoApps, IoNotifications, IoCard, IoPieChart, IoChevronForward, IoChevronForwardCircle, IoStar } from 'react-icons/io5'; 
 import { IconContext } from 'react-icons';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 
 const Hero = () => {
@@ -19,11 +20,13 @@ const Hero = () => {
         </h2>
         <p>We provide you with safe and secure buses for any movements of your choice, be it a church, school, business, and lots more...</p>
         <div className="btn_group">
-            <button className='btn btn_primary'>Book a Bus
+          <a href="ride">
+            <button className='btn btn_primary'>Book a Ride
              {/* <IconContext.Provider value={{color:"#14da8f", size:"25px"}}>
               <IoChevronForwardCircle style={{ marginLeft:"10px" }} />
              </IconContext.Provider> */}
             </button>
+            </a>
             {/* <button className='btn btn_secondary'>Bus Riding</button> */}
         </div>
         <div className='review_container'>
