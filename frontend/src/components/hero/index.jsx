@@ -15,8 +15,8 @@ const Hero = () => {
         transition={{ delay: 0.4 }}
       >
         <h2>
-          <span>Get a <span className='second'>Bus,</span></span>
-          <span>for your <span className='second'>journey.</span></span>
+          <span>Let's get <span className='second'>rid,</span></span>
+          <span>of your <span className='second'>trash.</span></span>
         </h2>
         <p>We provide you with safe and secure buses for any movements of your choice, be it a church, school, business, and lots more...</p>
         <div className="btn_group">
