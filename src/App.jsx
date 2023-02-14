@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header content="Create an Account" />
       <Hero />
       <Process />
       <Footer />

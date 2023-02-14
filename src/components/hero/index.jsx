@@ -3,6 +3,7 @@ import bus from '../../../public/Bus.png';
 import { IoMailOutline, IoApps, IoNotifications, IoCard, IoPieChart, IoChevronForward, IoChevronForwardCircle, IoStar } from 'react-icons/io5'; 
 import { IconContext } from 'react-icons';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 
 const Hero = () => {
@@ -14,17 +15,19 @@ const Hero = () => {
         transition={{ delay: 0.4 }}
       >
         <h2>
-          <span>Get a <span className='second'>Bus,</span></span>
-          <span>for your <span className='second'>journey.</span></span>
+          <span>Let's get <span className='second'>rid,</span></span>
+          <span>of your <span className='second'>trash.</span></span>
         </h2>
         <p>We provide you with safe and secure buses for any movements of your choice, be it a church, school, business, and lots more...</p>
         <div className="btn_group">
-            <button className='btn btn_primary'>Get Started
-             <IconContext.Provider value={{color:"#14da8f", size:"25px"}}>
+          <a href="ride">
+            <button className='btn btn_primary'>Book a Ride
+             {/* <IconContext.Provider value={{color:"#14da8f", size:"25px"}}>
               <IoChevronForwardCircle style={{ marginLeft:"10px" }} />
-             </IconContext.Provider>
+             </IconContext.Provider> */}
             </button>
-            <button className='btn btn_secondary'>Live Chat</button>
+            </a>
+            {/* <button className='btn btn_secondary'>Bus Riding</button> */}
         </div>
         <div className='review_container'>
             <p className="total_review">
